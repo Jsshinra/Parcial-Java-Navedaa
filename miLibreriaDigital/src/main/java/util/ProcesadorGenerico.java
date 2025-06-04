@@ -1,5 +1,3 @@
-
-
 package util;
 
 
@@ -20,6 +18,6 @@ public class ProcesadorGenerico<T> {
             System.out.println("No hay elemento para procesar (es nulo).");
         }
     }
- {
+ 
     
 }

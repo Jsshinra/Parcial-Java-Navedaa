@@ -6,7 +6,7 @@ import java.sql.Statement;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class AdministradorBaseDatos {
+public class AdministradorBaseDatos extends ProcesadorGenerico{
     private static final Logger logger = LogManager.getLogger(AdministradorBaseDatos.class);
 
     public void inicializarEsquema() {
@@ -37,4 +37,5 @@ public class AdministradorBaseDatos {
             System.err.println("No se pudo inicializar el esquema de la base de datos. La aplicación podría no funcionar como se espera.");
         }
     }
-}
+    }
+
